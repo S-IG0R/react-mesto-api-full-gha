@@ -1,0 +1,28 @@
+.register__input {
+  color: #fff;
+  padding-bottom: 6px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgba(204, 204, 204, 1);
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+.register__input::placeholder {
+  color: #ccc;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.register__input:last-of-type {
+  margin-bottom: 0;
+}

@@ -1,0 +1,21 @@
+.profile__hero-name {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: #fff;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+  .profile__hero-name {
+    font-size: 27px;
+    line-height: 33px;
+    max-width: 189px;
+    text-align: center;
+  }
+}

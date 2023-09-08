@@ -1,0 +1,10 @@
+.header__link_type_classic-menu {
+  color: #fff;
+}
+
+
+@media (max-width: 767.98px) {
+  .header__link_type_classic-menu {
+    font-size: 14px;
+  }
+}

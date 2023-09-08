@@ -1,0 +1,21 @@
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  visibility: hidden;
+  min-height: 21px;
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s, visibility 0.3s linear;
+  transform: translate(0, 21px);
+}
+
+@media (max-width: 767.98px) {
+  .notification {
+    min-height: 18px;
+  }
+}

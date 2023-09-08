@@ -1,0 +1,17 @@
+.profile__text-container {
+  max-width: 294px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 8px;
+  padding-left: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .profile__text-container {
+    max-width: 282px;
+    padding-top: 26px;
+    padding-left: 0;
+    align-items: center;
+  }
+}

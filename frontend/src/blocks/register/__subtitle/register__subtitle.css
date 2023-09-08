@@ -1,0 +1,16 @@
+.register__subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px 0 0 0;
+}
+
+@media (max-width: 767.98px) {
+  .register__subtitle {
+    margin-top: 20px;
+  }
+}

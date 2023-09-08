@@ -1,0 +1,4 @@
+.header__burger-btn_active {
+  background-image: url('../../../../images/close-btn.svg');
+  background-size: 20px 20px;
+}
