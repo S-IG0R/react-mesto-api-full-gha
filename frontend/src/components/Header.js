@@ -15,8 +15,6 @@ export function Header({
   const handleClickSignOut = () => {
     onSignOut();
   };
-
-  console.log(headerInfo);
   return (
     <>
       {headerInfo && (

@@ -1,5 +1,8 @@
 const allowedCorsUrl = [
   'http://localhost:3001',
+  'http://localhost:3000',
+  'http://api.mesto.igor-s.nomoredomainsicu.ru',
+  'https://api.mesto.igor-s.nomoredomainsicu.ru',
 ];
 
 const DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';

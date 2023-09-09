@@ -191,13 +191,11 @@ function App() {
   //обработка лайка
   const handleCardLike = React.useCallback(
     (card, myId) => {
-      console.log(card.likes);
       //проверяем есть ли лайк
       const isLiked = card.likes.some((like) => {
         return like === myId;
       });
 
-      console.log(isLiked);
       //если isLiked вернула true - убираем, false - ставим
       isLiked
         ? api

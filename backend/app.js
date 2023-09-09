@@ -35,6 +35,13 @@ app.use(express.json());
 // логгер запросов
 app.use(requestLogger);
 
+// для краштеста
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 // все руты приложения
 app.use(router);
 

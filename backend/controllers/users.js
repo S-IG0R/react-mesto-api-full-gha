@@ -13,6 +13,8 @@ const BadRequestError = require('../errors/BadRequestError');
 const ConflictError = require('../errors/ConflictError');
 const UnauthorizedError = require('../errors/UnauthorizedError');
 
+require('dotenv').config();
+
 const { JWT_SECRET, NODE_ENV } = process.env;
 
 const SALT_ROUNDS = 12;
