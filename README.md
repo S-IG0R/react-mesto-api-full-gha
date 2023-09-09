@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 130.193.55.238
+IP-адрес 84.201.154.126
 
 Frontend https://mesto.igor-s.nomoredomainsicu.ru
 
