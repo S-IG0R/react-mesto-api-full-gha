@@ -1,6 +1,6 @@
 class Api {
   constructor({ url }) {
-    this._url = url;
+    this._url = url();
   }
 
   getUserInfo() {
@@ -80,11 +80,10 @@ class Api {
   }
 }
 
-const BASE_URL =
-  process.env.NODE_ENV === 'production'
-    ? process.env.REACT_APP_BASE_URL
-    : 'http://localhost:3000';
-
 export const api = new Api({
-  url: BASE_URL,
+  url: () => {
+    return process.env.NODE_ENV === 'production'
+    ? process.env.REACT_APP_BASE_URL
+    : 'http://localhost:3000'
+  },
 });
