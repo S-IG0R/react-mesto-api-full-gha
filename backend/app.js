@@ -23,9 +23,6 @@ mongoose
     console.log('Connected to MongoDB');
   });
 
-// ограничитель запросов к серверу
-app.use(limit);
-
 // защита от некоторых широко известных веб-уязвимостей
 app.use(helmet());
 
@@ -35,12 +32,8 @@ app.use(express.json());
 // логгер запросов
 app.use(requestLogger);
 
-// для краштеста
-app.get('/crash-test', () => {
-  setTimeout(() => {
-    throw new Error('Сервер сейчас упадёт');
-  }, 0);
-});
+// ограничитель запросов к серверу
+app.use(limit);
 
 // все руты приложения
 app.use(router);
